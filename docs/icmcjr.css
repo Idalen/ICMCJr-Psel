@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+}
 
 html {
     scroll-behavior: smooth;
@@ -67,7 +77,6 @@ p{
     margin-right: 2%;
     margin-left:2%;
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .image{
@@ -169,6 +178,7 @@ p{
 }
 
 .rodapetext a{
+    font-size: 24px;
     text-decoration: none;
     padding:14px 16px;
     cursor: pointer;
